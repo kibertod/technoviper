@@ -37,7 +37,7 @@ class Message:
 
     def reply(self, text='', attachment=None, peer_id=None):
         if not peer_id:
-            peer_id=self.peer_id
+            peer_id = self.peer_id
         vk.method("messages.send", {
             "peer_id": peer_id,
             "text": text,

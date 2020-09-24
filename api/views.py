@@ -9,7 +9,7 @@ from urllib.request import urlopen
 import requests
 
 
-token = "3e0ae4055ea88392353d46bad3a1bb1a0646d467e63f9e3b45b58ac7470ed2f2fad50f8d4de1c4a3c3892"
+token = ""
 vk = vk_api.VkApi(token=token)
 
 
